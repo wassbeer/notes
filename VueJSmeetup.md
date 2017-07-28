@@ -13,14 +13,14 @@ _Speaker_: Victor Garrido
 
 Frameworks are there to help during development. The management of the framework, thus, should be least important. Requirements to use a framework: 
 + it should be possible to start fast
-+ documentation should be good.
++ documentation should be good
 
 ### Why Vue.js?
 
-1. Vue is approachable. It enabled to prototype projects. 
-2. No need to build any tools, just as when using the react library. 
+1. Vue is approachable. It enables to easily prototype projects.
+2. No need to build any tools, similar to using the react library. 
 3. Vue.js makes use of templates. 
-4. It is fast and lightweight
+4. It is fast and lightweight.
 5. [Vue.js, red.] "just allows me to do it!"
 
 ### Ecosystem
@@ -55,9 +55,9 @@ On Angular vs. Vue.js: employees stated "it is not going to look good on our CV'
 3. Opportunity to learn something new. 
 
 ### Benefits of Vue.js 2:
-1. Great documentation "we spent a weekend" [learning Vue.js] --> [Vue.js Documentation](https://vuejs.org/ + "Vue.js") + [Udemy course on Vue](https://www.udemy.com/vuejs-2-the-complete-guide/ + "Vue.js: the complete guide)
+1. Great documentation "we spent a weekend" [learning Vue.js, red.] --> [Vue.js Documentation](https://vuejs.org/) + [Udemy course on Vue](https://www.udemy.com/vuejs-2-the-complete-guide/)
 2. Large ecosystem --> [Awesome Vue on Github](https://github.com/vuejs/awesome-vue)
-3. [Fastest growing front-end framework](https://bestof.js.org/tags/framework/trending/this-month)
+3. Fastest growing front-end framework --> [Best Of](https://bestof.js.org/tags/framework/trending/this-month)
 
 * Vue.js - small API
 * Plain JS in HTML
