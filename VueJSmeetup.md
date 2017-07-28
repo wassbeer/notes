@@ -30,27 +30,27 @@ Vuex is different from Redux. Routing: straightforward.
 
 
 
-## Story Book in Vue.js
+## Storybook in Vue.js
 
 _Speaker_: Norbert de Langen
 [https://github.com/ndelangen](https://github.com/ndelangen)
 
-Released a story book for Vue. Introduced storybook in React for a client before. Problem Norbert experiences: in a large angular.js application, to reach certain components you have to direct them to get them in a certain state. Solution: Isolated Component Driven Development. View components in isolation, display in different settings/states. 
+Norbert published a storybook using Vue and introduced a story book in React for a client before. The main problem Norbert experiences: to reach certain components in a large angular.js application you have to direct them to get them in a certain state. Solution: Isolated Component Driven Development. View components in isolation, display them in different settings/states. 
 
-New issues vs. pull requests. "we get a lot of pull requests from contributors" Issues are solved, so the codebase is healthy. 
+New issues vs. pull requests. "We get a lot of pull requests from contributors" Issues are solved, so the codebase is healthy. 
 
 
 
 ## Migrating from Angular to Vue.js
 _Speaker_: Paul Bastowski
 
-Developing KLM apps for internal use. 
+Paul works at Sytac. Its major client is KLM. Developing KLM apps for internal use. 
 
-On Angular vs. Vue.js: employees stated "it is not going to look good on our CV's if we keep using angular". Angular 2 became a very complex variant of Angular 1.
+On Angular vs. Vue.js: employees stated "it is not going to look good on our CV's if we keep using Angular". Angular 2 became a very complex variant of Angular 1.
 
 ### Why switching to Vue.js 2?
 
-1. Can't find people who want to code  AngularJS. 
+1. Can't find people who want to code  Angular.jS. 
 2. Project has budget to modernise the codebase. 
 3. Opportunity to learn something new. 
 
@@ -67,5 +67,5 @@ On Angular vs. Vue.js: employees stated "it is not going to look good on our CV'
 ## Random Quotes
 
 * "Be pragmatic" - Victor Garrido
-* "Core people at google are not depended on Angular anymore so advicing clients to use Angular is not smart." - Norbert de Langen
+* "Core people at google are not depended on anymore so advicing clients to use Angular is not smart." - Norbert de Langen
 * "Webpack is really nice." - Paul Bastowski
