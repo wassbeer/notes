@@ -8,20 +8,6 @@ Rules:
 + Never mix spaces and tabs
 + Set indent size to 2 (for readability)<details><summary>[?]</summary>
 _In Sublime Text 3: Preferences --> Settings --> User --> Insert: '"tab_size" : 2'_</details>
-``` JavaScript
-// preferences.sublime-settings
-
-{
-	"color_scheme": "Packages/Babel/Monokai Phoenix.tmTheme",
-	"draw_white_space": "all",
-	"font_size": 11,
-	"ignored_packages":
-	[
-		"Vintage"
-	],
-	"tab_size": 2
-}
-```
 + Show invisibles/spaces (for consistency & end of of line white spacing issues)<details><summary>[?]</summary>
 _In Sublime Text 3: Preferences --> Settings --> User --> Insert: '"draw_white_space": "all"'_
 ``` JavaScript
@@ -65,7 +51,7 @@ trim_trailing_whitespace = false
 ## 2. Beautiful Syntax
 
 Rules:
-+ Use white space for readability <details><summary>[?]</summary>
++ Use white space for readability
 ``` JavaScript
 if ( condition ) {
   // statements
@@ -79,8 +65,7 @@ for ( var i = 0; i < 100; i++ ) {
   // statements
 }
 ```
-</details>
-+ Declare variables always in the beginning of their respective scope <details><summary>[?]</summary>
++ Declare variables always in the beginning of their respective scope
 ``` JavaScript
 // Bad
 function foo() {
@@ -99,8 +84,7 @@ function foo() {
   // all statements after the variables declarations.
 }
 ```
-</details>
-+ Use the var/let/const keyword once per var/let/const or one var/let/const for each matching var/let/const<details><summary>[?]</summary>
++ Use the var/let/const keyword once per var/let/const or one var/let/const for each matching var/let/const
 ``` JavaScript
 // Bad
 var foo = "",
@@ -118,7 +102,6 @@ var foo = "",
   qux;
 }
 ```
-</details>
 + Named function declarations should be descriptive and verbose
 + "" vs. '': never mix quotes on the same project
 
@@ -205,7 +188,7 @@ null == undefined
 ## 4. Inspiration
 
 Cool ideas:
-+ turn switch statements into objects with functions<details><summary>[?]</summary>
++ turn switch statements into objects with functions
 ``` JavaScript
 // An example switch statement
 
@@ -269,8 +252,7 @@ delegator = function() {
   return delegate.apply( null, args );
 };
 ```
-</details>
-+ return earlier to promote code readability<details><summary>[?]</summary>
++ return earlier to promote code readability
 ``` JavaScript
 // Bad:
 function returnLate( foo ) {
@@ -294,4 +276,3 @@ function returnEarly( foo ) {
   return "quux";
 }
 ```
-</details>
