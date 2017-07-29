@@ -6,7 +6,7 @@ _This document displays my personal picks from the rules of code styling as ment
 
 Rules:
 + Never mix spaces and tabs
-+ Set indent size to 2 (for readability)<details><summary></summary>
++ Set indent size to 2 (for readability)<details><summary>[?]</summary>
 _In Sublime Text 3: Preferences --> Settings --> User --> Insert: '"tab_size" : 2'_</details>
 ``` JavaScript
 // preferences.sublime-settings
@@ -22,7 +22,7 @@ _In Sublime Text 3: Preferences --> Settings --> User --> Insert: '"tab_size" : 
 	"tab_size": 2
 }
 ```
-+ Show invisibles/spaces (for consistency & end of of line white spacing issues)<details><summary></summary>
++ Show invisibles/spaces (for consistency & end of of line white spacing issues)<details><summary>[?]</summary>
 _In Sublime Text 3: Preferences --> Settings --> User --> Insert: '"draw_white_space": "all"'_
 ``` JavaScript
 // preferences.sublime-settings
@@ -40,7 +40,7 @@ _In Sublime Text 3: Preferences --> Settings --> User --> Insert: '"draw_white_s
 ```
 </details>
 
-+ Use Editorconfig when possible <details><summary></summary>
++ Use Editorconfig when possible <details><summary>[?]</summary>
 Editorconfig helps developers define and maintain consistent coding styles between different editors and IDEs. The .editorconfig files are created locally and stored in the root directory. For more information on Editorconfig please consult the [documentation](http://editorconfig.org/). 
 
 ``` JavaScript 
@@ -65,7 +65,7 @@ trim_trailing_whitespace = false
 ## 2. Beautiful Syntax
 
 Rules:
-+ Use white space for readability <details>
++ Use white space for readability <details><summary>[?]</summary>
 ``` JavaScript
 if ( condition ) {
   // statements
@@ -80,7 +80,7 @@ for ( var i = 0; i < 100; i++ ) {
 }
 ```
 </details>
-+ Declare variables always in the beginning of their respective scope <details>
++ Declare variables always in the beginning of their respective scope <details><summary>[?]</summary>
 ``` JavaScript
 // Bad
 function foo() {
@@ -100,7 +100,7 @@ function foo() {
 }
 ```
 </details>
-+ Use the var/let/const keyword once per var/let/const or one var/let/const for each matching var/let/const<details>
++ Use the var/let/const keyword once per var/let/const or one var/let/const for each matching var/let/const<details><summary>[?]</summary>
 ``` JavaScript
 // Bad
 var foo = "",
@@ -205,7 +205,7 @@ null == undefined
 ## 4. Inspiration
 
 Cool ideas:
-+ turn switch statements into objects with functions<details>
++ turn switch statements into objects with functions<details><summary>[?]</summary>
 ``` JavaScript
 // An example switch statement
 
@@ -270,7 +270,7 @@ delegator = function() {
 };
 ```
 </details>
-+ return earlier to promote code readability<details>
++ return earlier to promote code readability<details><summary>[?]</summary>
 ``` JavaScript
 // Bad:
 function returnLate( foo ) {
